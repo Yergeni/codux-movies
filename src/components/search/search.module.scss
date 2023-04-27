@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+.root {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid $colorGrey1;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+.input {
+  background-color: transparent;
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  &:focus {
+    outline-width: 0;
+    outline: none;
+  }
+}
+.button {
+  background-color: $colorRed1;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+@import '../../styles/variables.scss';
+
+.root {
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 2rem;
+  color: $colorGrey2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logoText {
+  font-size: 1.5rem;
+  color: $colorRed1;
+}
+.title {
+  color: $colorGrey2;
+  border: 0px solid $colorGrey2;
+  font-size: 18px;
+}
+.hr {
+  margin-top: -8px;
+  border: 0.5px solid $colorGrey2;
+  width: 100%;
+}
+.list {
+  padding: 1px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.listItem {
+  color: white;
+  cursor: pointer;
+  &:hover {
+    font-weight: 600;
+  }
+}

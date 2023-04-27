@@ -1,0 +1,47 @@
+@import '../../styles/variables.scss';
+
+.root {
+  position: relative;
+}
+.favImage {
+  width: 100%;
+}
+.favDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  align-content: start;
+}
+.favTitle {
+  // font-size: 14px;
+  font-weight: 500;
+}
+.btnContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+  background-color: transparent;
+  background-image: linear-gradient(black, rgba(255, 255, 255, 0));
+  opacity: 0;
+  &:hover {
+    opacity: 1;
+  }
+}
+.button {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  background-color: $colorRed1;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
